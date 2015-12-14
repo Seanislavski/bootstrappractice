@@ -10,7 +10,14 @@
     font-size: 20px; }
 
   header > div > h1 {
-    font-size: 25px; } }
+    font-size: 27px; }
+
+  .sidebar {
+    order: 3;
+    padding-top: 20px; }
+
+  .mainblock {
+    order: 1; } }
 body {
   margin-left: 100px;
   margin-right: 100px;
@@ -21,7 +28,8 @@ body {
 header {
   font-family: Cinzel;
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+  padding-top: 15px; }
   header h1 {
     width: 100%;
     display: flex;
@@ -51,7 +59,7 @@ footer {
     align-self: center; }
 
 .sidebar {
-  flex-flow: column nowrap; }
+  padding-right: 5px; }
 
 #top {
   display: flex;

@@ -1,10 +1,9 @@
 @import "partials/color";
 @import "partials/font";
-// @import "partials/grid";
 @import "partials/modules";
 @media (max-width: 768px) {
-	nav > ul { 
-		flex-flow: column nowrap; 
+	nav > ul {
+		flex-flow: column nowrap;
 		align-items: flex-end;
 	}
 
@@ -14,7 +13,16 @@
 	}
 
 	header > div > h1{
-		font-size: 25px;
+		font-size: 27px;
+	}
+
+	.sidebar{
+		order: 3;
+		padding-top: 20px;
+	}
+
+	.mainblock{
+		order: 1;
 	}
 }
 
@@ -31,7 +39,8 @@ header{
 	font-family: Cinzel;
 	padding-left: 15px;
 	padding-right: 15px;
-	
+	padding-top: 15px;
+
 
 	h1{
 		width: 100%;
@@ -41,9 +50,9 @@ header{
 
 
 	nav{
-		
+
 		width: 100%;
-		
+
 		ul{
 		display: flex;
 		justify-content: space-around;
@@ -68,20 +77,20 @@ footer{
 	display: flex;
 	font-family: Kameron;
 	align-self: flex-end;
-	
 }
 
 .mainblock{
 	display: flex;
 	flex-flow: column nowrap;
-	
-	h4 {	
+
+	h4 {
 		align-self: center;
 	}
 }
 
 .sidebar{
-	flex-flow: column nowrap;
+	// flex-flow: column wrap;
+	padding-right: 5px;
 }
 
 #top {
@@ -91,150 +100,16 @@ footer{
 	border-top-left-radius: 30px;
 	padding-top: 10px;
 	padding-bottom: 30px;
-
 }
 
 #bottom {
 	border-bottom-right-radius: 30px;
 	border-bottom-left-radius: 30px;
 	padding-bottom: 10px;
-	
 }
 
 .content{
-	// border-radius: 30px;
-	// border: 10px solid black;
-	// margin: 0;
-	// padding: 0;
 	font-family: Kameron;
 	flex: 1;
-
-
 }
 
-.row{
-	// padding-left: 15px;
-	// padding-right: 15px;
-	// margin-top: 30px;
-	// width: 100%;
-	}
-
-.footer{
-	
-	// justify-content: flex-end;
-	
-
-}
-
-// .col-xs-1{
-// 	background: $p4;
-// }
-// .col-xs-2{
-// 	background: $p3;
-// }
-// .col-xs-3{
-// 	background: $p1;
-// }
-// .col-xs-4{
-// 	background: $p3;
-// }
-// .col-xs-5{
-// 	background: $p2;
-// }
-// .col-xs-6{
-// 	background: $p1;
-// }
-// .col-xs-7{
-// 	background: $p2;
-// }
-// .col-xs-8{
-// 	background: $p3;
-// }
-// .col-xs-9{
-// 	background: $p2;
-// }
-// .col-xs-10{
-// 	background: $p5;
-// }
-// .col-xs-11{
-// 	background: $p4;
-// }
-// .col-xs-12{
-// 	background: $p3;
-// }
-
-
-// .col-sm-1{
-// 	background: $p4;
-// }
-// .col-sm-2{
-// 	background: $p2;
-// 	padding: 5px;
-// }
-// .col-sm-3{
-// 	background: $p1;
-// }
-// .col-sm-4{
-// 	background: $p3;
-// }
-// .col-sm-5{
-// 	background: $p2;
-// }
-// .col-sm-6{
-// 	background: $p1;
-// }
-// .col-sm-7{
-// 	background: $p2;
-// }
-// .col-sm-8{
-// 	background: $p3;
-// }
-// .col-sm-9{
-// 	background: $p2;
-// }
-// .col-sm-10{
-// 	background: $p5;
-// }
-// .col-sm-11{
-// 	background: $p4;
-// }
-// .col-sm-12{
-// 	background: $p3;
-// }
-
-// .col-md-1{
-// 	background: $p4;
-// }
-// .col-md-2{
-// 	background: $p2;
-// }
-// .col-md-3{
-// 	background: $p1;
-// }
-// .col-md-4{
-// 	background: $p3;
-// }
-// .col-md-5{
-// 	background: $p2;
-// }
-// .col-md-6{
-// 	background: $p1;
-// }
-// .col-md-7{
-// 	background: $p2;
-// }
-// .col-md-8{
-// 	background: $p3;
-// }
-// .col-md-9{
-// 	background: $p2;
-// }
-// .col-md-10{
-// 	background: $p5;
-// }
-// .col-md-11{
-// 	background: $p4;
-// }
-// .col-md-12{
-// 	background: $p3;
-// }
