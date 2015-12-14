@@ -1,6 +1,7 @@
 @import "partials/color";
 @import "partials/font";
-@import "partials/grid";
+// @import "partials/grid";
+@import "partials/modules";
 @media (max-width: 768px) {
 	nav > ul { 
 		flex-flow: column nowrap; 
@@ -68,6 +69,19 @@ footer{
 	font-family: Kameron;
 	align-self: flex-end;
 	
+}
+
+.mainblock{
+	display: flex;
+	flex-flow: column nowrap;
+	
+	h4 {	
+		align-self: center;
+	}
+}
+
+.sidebar{
+	flex-flow: column nowrap;
 }
 
 #top {

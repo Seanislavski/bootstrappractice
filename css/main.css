@@ -44,6 +44,15 @@ footer {
   font-family: Kameron;
   align-self: flex-end; }
 
+.mainblock {
+  display: flex;
+  flex-flow: column nowrap; }
+  .mainblock h4 {
+    align-self: center; }
+
+.sidebar {
+  flex-flow: column nowrap; }
+
 #top {
   display: flex;
   justify-content: center;
